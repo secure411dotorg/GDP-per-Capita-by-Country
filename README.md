@@ -3,8 +3,8 @@ GDP-per-Capita-by-Country
 
 Data and scripts used to relate a datapoint to the GDP and population of a country
 
-COLUMNS
-***
+Explanation of Columns
+---
 
 ```
 US|14586736|313759000|21410|2.17142714897758444175
@@ -23,14 +23,14 @@ echo "scale=20;((${GDP}*1000000)/${POPULATION})/${GLOBALMEDIANGDPPERCAPITA}"|/us
 ```
 
 Sources of Population Data
-***
+---
 
 
 Computer parseable population figures correlated to the ISO-3166-2 country code list are maintained by Dissect Cyber Inc and are sourced from http://en.wikipedia.org/wiki/List_of_countries_by_population. As noted on the Wikipedia page, original sources include Official Census, Official Estimate, UN Estimates, et al. While many are from 2012, some are from previous years. 
 
 
 Sources of GDP per Capita Data
-***
+---
 
 Computer parseable GDP figures correlated to the ISO-3166-2 country code list are maintained by Dissect Cyber Inc and are sourced from http://databank.worldbank.org/databank/download/GDP_PPP.pdf if a PPP (Purchasing Power Parity) figure is available, and sourced from http://databank.worldbank.org/databank/download/GDP.pdf if not available in PPP form. 
 
